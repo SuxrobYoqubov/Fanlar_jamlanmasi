@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'ebozor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'fanlar_jamlanmasi', # fanlar_jamlanmasi   ebozorDB
-        'USER': 'fan_jamlanmasi', # fan_jamlanmasi    postgres
-        'PASSWORD': 'fan_jamlanmasi', # fan_jamlanmasi   suxrob
+        'NAME': 'ebozorDB', # fanlar_jamlanmasi   ebozorDB
+        'USER': 'postgres', # fan_jamlanmasi    postgres
+        'PASSWORD': 'suxrob', # fan_jamlanmasi   suxrob
         'HOST': 'localhost',
         'PORT': '5432',
     }
